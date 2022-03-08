@@ -2,7 +2,7 @@
 
 ## Welcome!
 
-**Click *[here](https://github.com/koko0530/stats220)* for my Stats220 repo page** 
+**Click *[here](https://koko0530.github.io/stats220/)* for my Stats220 repo page** 
 
 ***A bit of description:***
 
