@@ -23,10 +23,14 @@ pop_cat <- image_read("https://popcat.click/twitter-card.jpg") %>%
 
 #text sources
 text1 <- image_blank(width = 450, height = 450, color = "#000000") %>%
-  image_annotate(text = "me watching\n1 hour of\nlecture", color = "#FFFFFF", size = 40, font = "Impact", gravity = "center")
+  image_annotate(text = "watching\n1 hour of\nlecture", color = "#FFFFFF", size = 40, font = "Impact", gravity = "center")
 
 text2 <- image_blank(width = 450, height = 450, color = "#000000") %>%
-  image_annotate(text = "me watching\n8 hours of\nNetflix", color = "#FFFFFF", size = 40, font = "Impact", gravity = "center")
+  image_annotate(text = "watching\n8 hours of\nNetflix", color = "#FFFFFF", size = 40, font = "Impact", gravity = "center")
+
+#row 0
+row_0 <- image_blank(width = 900, height = 100, color = "#000000") %>%
+  image_annotate(text = "me be like:", color = "#FFFFFF", size = 40, font = "Impact", gravity = "center")
 
 #row 1
 row_1 <- c(confused_cat, text1) %>%
@@ -37,9 +41,10 @@ row_2 <- c(pop_cat, text2) %>%
   image_append()
 
 #final meme
-my_meme <- c(row_1, row_2) %>%
+my_meme <- c(row_0, row_1, row_2) %>%
   image_append(stack = TRUE)
 
 #save meme
 image_write(my_meme, "my_meme.png")
+
 ```
