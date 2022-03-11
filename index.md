@@ -5,8 +5,8 @@ In this page you will see the meme I created using R code and the [{magick}](htt
 ![](my_meme.png)
 
 ### About this meme
-* This meme was made originally by me, I found two intresting cat images using Google and turned it into a meme using R by adding some texts and blank spaces.
-* This meme was inspired by a post I saw on Weibo which was about "me doing homework for 10 mins VS me playing vedio games for 10 hrs". I found it quite interesting, so I added cat images and a bit of my own idea to make it more relatable to myself. 
+1. This meme was made originally by me, I found two intresting cat images using Google and turned it into a meme using R by adding some texts and blank spaces.
+2. This meme was inspired by a post I saw on Weibo which was about "me doing homework for 10 mins VS me playing vedio games for 10 hrs". I found it quite interesting, so I added cat images and a bit of my own idea to make it more relatable to myself. 
 
 ### Code
 ```
